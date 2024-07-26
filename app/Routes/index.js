@@ -1,3 +1,5 @@
+const usersRouter = require('./users')
+
 module.exports = (app) => {
-  app.use()
+  app.use('/users', usersRouter)
 }
