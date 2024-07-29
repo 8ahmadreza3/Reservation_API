@@ -1,7 +1,9 @@
-const UsersList = require('./UsersList.js')
-const loginUser = require('./LoginUser.js/index.js')
+const usersList = require('./UsersList')
+const deleteUser = require('./DeleteUser')
+const loginUser = require('./LoginUser')
 
 module.exports = {
-  UsersList,
+  usersList,
   loginUser,
+  deleteUser
 }
