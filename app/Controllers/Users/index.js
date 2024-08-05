@@ -1,9 +1,15 @@
-const usersList = require('./UsersList')
-const deleteUser = require('./DeleteUser')
-const loginUser = require('./LoginUser')
+const remove = require('./Remove')
+const list = require('./List')
+const login = require('./Login')
+const signUp = require('./SignUp')
+const update = require('./Update')
+const forgotPass = require('./forgotPass')
 
 module.exports = {
-  usersList,
-  loginUser,
-  deleteUser
+  remove,
+  list,
+  login,
+  signUp,
+  update,
+  forgotPass
 }
